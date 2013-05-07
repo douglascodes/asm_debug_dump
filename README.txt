@@ -1,0 +1,2 @@
+A basic debugging script for when I don't feel like running in gdb. Dumps the 64bit register set and flags as std_out in Linux. No support for XMM / MMX regs yet. Very simple. Just add `call _DEBUG_Register_Dump from which line of ASM file you want to print regs from. Will add a stack / data option later. This was my first project in ASM for 10 years so be kind.
+Douglas H. King
